@@ -1,0 +1,11 @@
+com\aem\ecommerce\eshop\core\core\listeners\package-info.class
+com\aem\ecommerce\eshop\core\core\listeners\SimpleResourceListener.class
+com\aem\ecommerce\eshop\core\core\schedulers\SimpleScheduledTask$Config.class
+com\aem\ecommerce\eshop\core\core\models\package-info.class
+com\aem\ecommerce\eshop\core\core\servlets\SimpleServlet.class
+com\aem\ecommerce\eshop\core\core\filters\LoggingFilter.class
+com\aem\ecommerce\eshop\core\core\schedulers\package-info.class
+com\aem\ecommerce\eshop\core\core\schedulers\SimpleScheduledTask.class
+com\aem\ecommerce\eshop\core\core\servlets\package-info.class
+com\aem\ecommerce\eshop\core\core\models\HelloWorldModel.class
+com\aem\ecommerce\eshop\core\core\filters\package-info.class

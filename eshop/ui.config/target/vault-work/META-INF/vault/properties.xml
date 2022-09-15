@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>eShop - UI config</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">eshop.ui.config</entry>
+<entry key="created">2022-09-15T11:46:24.846Z</entry>
+<entry key="groupId">com.aem.ecommerce</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="group">com.aem.ecommerce</entry>
+<entry key="description">UI config package for eShop</entry>
+<entry key="artifactId">eshop.ui.config</entry>
+</properties>

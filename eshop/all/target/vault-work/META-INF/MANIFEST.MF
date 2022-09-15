@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: eShop - All
+Content-Package-Roots: /apps/eshop-packages,/apps/eshop-vendor-package
+ s
+Implementation-Version: 0.0.1-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: container
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Content-Package-Id: com.aem.ecommerce:eshop.all:0.0.1-SNAPSHOT
+Content-Package-Description: All content package for eShop
+

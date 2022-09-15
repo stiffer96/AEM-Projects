@@ -1,0 +1,7 @@
+com\aem\ecommerce\eshop\core\core\schedulers\SimpleScheduledTaskTest.class
+com\aem\ecommerce\eshop\core\core\testcontext\AppAemContext$1.class
+com\aem\ecommerce\eshop\core\core\filters\LoggingFilterTest.class
+com\aem\ecommerce\eshop\core\core\servlets\SimpleServletTest.class
+com\aem\ecommerce\eshop\core\core\listeners\SimpleResourceListenerTest.class
+com\aem\ecommerce\eshop\core\core\models\HelloWorldModelTest.class
+com\aem\ecommerce\eshop\core\core\testcontext\AppAemContext.class

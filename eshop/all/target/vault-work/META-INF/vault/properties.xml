@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>eShop - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">eshop.all</entry>
+<entry key="created">2022-09-15T11:46:27.191Z</entry>
+<entry key="groupId">com.aem.ecommerce</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.aem.ecommerce</entry>
+<entry key="description">All content package for eShop</entry>
+<entry key="artifactId">eshop.all</entry>
+</properties>

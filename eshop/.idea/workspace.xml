@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="346435d0-e439-4479-82c3-d7ac3888f102" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all/src/main/content/META-INF/vault/definition/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all/src/main/content/META-INF/vault/filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archetype.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/aem/ecommerce/eshop/core/core/filters/LoggingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/aem/ecommerce/eshop/core/core/filters/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/aem/ecommerce/eshop/core/core/listeners/SimpleResourceListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/aem/ecommerce/eshop/core/core/listeners/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/aem/ecommerce/eshop/core/core/models/HelloWorldModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/aem/ecommerce/eshop/core/core/models/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/aem/ecommerce/eshop/core/core/schedulers/SimpleScheduledTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/aem/ecommerce/eshop/core/core/schedulers/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/aem/ecommerce/eshop/core/core/servlets/SimpleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/aem/ecommerce/eshop/core/core/servlets/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/com/aem/ecommerce/eshop/core/core/filters/LoggingFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/com/aem/ecommerce/eshop/core/core/listeners/SimpleResourceListenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/com/aem/ecommerce/eshop/core/core/models/HelloWorldModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/com/aem/ecommerce/eshop/core/core/schedulers/SimpleScheduledTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/com/aem/ecommerce/eshop/core/core/servlets/SimpleServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/com/aem/ecommerce/eshop/core/core/testcontext/AppAemContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/it.tests/src/main/java/com/aem/ecommerce/eshop/core/it/tests/CreatePageIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/it.tests/src/main/java/com/aem/ecommerce/eshop/core/it/tests/GetPageIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/it.tests/src/main/java/com/aem/ecommerce/eshop/core/it/tests/HtmlUnitClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/it.tests/src/main/java/com/aem/ecommerce/eshop/core/it/tests/PublishPageValidationIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps.structure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/clientlibs/clientlib-dependencies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/clientlibs/clientlib-dependencies/css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/clientlibs/clientlib-dependencies/js.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/clientlibs/clientlib-grid/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/clientlibs/clientlib-grid/css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/clientlibs/clientlib-grid/less/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/clientlibs/clientlib-site/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/clientlibs/clientlib-site/css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/clientlibs/clientlib-site/js.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/accordion/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/accordion/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/accordion/_cq_template/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/accordion/new/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/breadcrumb/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/button/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/carousel/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/carousel/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/carousel/new/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/container/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/container/new/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/contentfragment/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/contentfragment/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/contentfragmentlist/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/download/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/embed/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/experiencefragment/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/experiencefragment/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/helloworld/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/helloworld/_cq_dialog/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/helloworld/helloworld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/image/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/image/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/languagenavigation/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/list/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/list/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/navigation/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/page/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/page/customfooterlibs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/page/customheaderlibs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/pdfviewer/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/progressbar/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/remotepage/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/remotepagenext/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/search/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/separator/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/sharing/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/spa/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/tabs/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/tabs/_cq_editConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/tabs/_cq_template/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/tabs/new/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/teaser/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/text/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/title/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/xfpage/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/xfpage/content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/xfpage/customfooterlibs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/xfpage/customheaderlibs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/i18n/fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/i18n/fr.json.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.config/src/main/content/META-INF/vault/filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.config/src/main/content/jcr_root/apps/eshop/osgiconfig/config.author/com.adobe.granite.cors.impl.CORSPolicyImpl~eshop.cfg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/_sling_configs/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/_sling_configs/_rep_policy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/cloudconfigs/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/dam/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/segments/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/segments/summer/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/segments/winter/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/nextjs-page/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/nextjs-page/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/nextjs-page/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/nextjs-page/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/nextjs-page/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/page/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/page/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/page/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/page/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/page/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/page/thumbnail.png.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/page/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/page/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/page/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/remote-page/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/remote-page/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/remote-page/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/remote-page/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/remote-page/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/xf/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/xf/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/xf/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/xf/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/xf/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/page-content/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/page-content/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/page-content/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/page-content/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/page-content/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/page-content/thumbnail.png.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/page-content/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/page-content/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/page-content/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/spa-next-remote-page/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/spa-next-remote-page/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/spa-next-remote-page/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/spa-next-remote-page/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/spa-next-remote-page/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/spa-remote-page/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/spa-remote-page/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/spa-remote-page/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/spa-remote-page/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/spa-remote-page/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/xf-web-variation/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/xf-web-variation/initial/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/xf-web-variation/policies/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/xf-web-variation/structure/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/xf-web-variation/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/xf-web-variation/thumbnail.png.dir/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/xf-web-variation/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/xf-web-variation/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_480.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/us/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/us/en/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/eshop/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/eshop/us/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/eshop/us/en/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/eshop/us/en/site/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/eshop/us/en/site/footer/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/eshop/us/en/site/footer/master/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/eshop/us/en/site/header/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/eshop/us/en/site/header/master/.content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/experience-fragments/eshop/us/en/site/header/master/_jcr_content/root/logo/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/assembly-ui-test-docker-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/docker-compose-wdio-chrome.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/docker-compose-wdio-firefox.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/linux/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac os x/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/mac/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/beryl/windows/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/linux/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac os x/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/mac/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/canvas-3-0/windows/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/linux/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac os x/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/mac/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/tranquil/windows/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/linux/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac os x/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/mac/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/ultramarine/windows/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/linux/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac os x/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/mac/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/chrome/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Address 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Address Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Basic info 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Basic info Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Communication 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Confirmation 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Confirmation Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Documents 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Employment 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Employment Submit 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/form/themes/urbane/windows/firefox/Expenditure 1366x768-base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/assets/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/lib/commons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/lib/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/lib/wdio-pixelmatch-service/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/lib/wdio-pixelmatch-service/comparisonstrategy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/lib/wdio-pixelmatch-service/fileutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/lib/wdio-pixelmatch-service/launcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/lib/wdio-pixelmatch-service/pathutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/lib/wdio.commands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/specs/aem/assets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/specs/aem/basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/specs/aem/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/specs/aem/sites.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/wdio.conf.cloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/wdio.conf.commons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/test-module/wdio.conf.local.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.tests/wait-for-grid.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/aem/ecom/eshop/core/core/filters/LoggingFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/aem/ecom/eshop/core/core/listeners/SimpleResourceListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/aem/ecom/eshop/core/core/models/HelloWorldModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/aem/ecom/eshop/core/core/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/aem/ecom/eshop/core/core/schedulers/SimpleScheduledTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/aem/ecom/eshop/core/core/servlets/SimpleServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/com/aem/ecom/eshop/core/core/models/TestHelloWorldModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/it.launcher/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/it.launcher/src/main/java/com/aem/ecom/eshop/core/it/launcher/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/it.launcher/src/test/java/com/aem/ecom/eshop/core/it/launcher/SlingServerSideTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/it.launcher/src/test/java/com/aem/ecom/eshop/core/it/launcher/SlingServerSideTestsBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/it.tests/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/it.tests/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/it.tests/src/main/java/com/aem/ecom/eshop/core/it/tests/HelloWorldModelServerSideTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/META-INF/vault/filter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/META-INF/vault/filter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/clientlibs/clientlib-base/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/clientlibs/clientlib-base/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/breadcrumb/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/breadcrumb/clientlib/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/breadcrumb/clientlib/css.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/breadcrumb/clientlib/less/breadcrumb.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/helloworld/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/helloworld/_cq_dialog/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/helloworld/helloworld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/image/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/image/_cq_editConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/languagenavigation/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/list/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/list/_cq_editConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/navigation/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/search/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/sharing/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/text/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/content/title/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/form/button/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/form/button/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/form/container/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/form/container/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/form/container/new/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/form/container/new/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/form/hidden/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/form/hidden/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/form/options/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/form/options/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/form/text/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/form/text/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/structure/page/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/structure/page/customfooterlibs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/components/structure/page/customheaderlibs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/config.author/com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider-eshop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/config/org.apache.sling.commons.log.LogManager.factory.config-eshop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/i18n/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/i18n/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/i18n/fr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/templates/page-content/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/templates/page-home/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/tests/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/tests/SampleTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/eshop/tests/js.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/sling/servlet/errorhandler/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.apps/src/main/content/jcr_root/apps/sling/servlet/errorhandler/ResponseStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/META-INF/vault/filter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/META-INF/vault/filter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/policies/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/policies/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/policies/_rep_policy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/policies/_rep_policy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/empty-page/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/empty-page/initial/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/empty-page/policies/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/template-types/empty-page/structure/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/_rep_policy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/_rep_policy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/content-page/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/content-page/initial/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/content-page/policies/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/conf/eshop/settings/wcm/templates/content-page/structure/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/eshop/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/eshop/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/eshop/_jcr_content/folderThumbnail" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/eshop/_jcr_content/folderThumbnail" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/eshop/asset.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/dam/eshop/asset.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/.content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/.content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/_jcr_content/image/file" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/_jcr_content/image/file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_300.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_300.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_48.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/en/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/en/_jcr_content/image/file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/en/_jcr_content/image/file.dir/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/en/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/fr/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/fr/_jcr_content/image/file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/fr/_jcr_content/image/file.dir/.content.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.content/src/main/content/jcr_root/content/eshop/fr/_jcr_content/image/file.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_319.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Enoo7glxN2zZo6yTKZsFYNzEXX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="346435d0-e439-4479-82c3-d7ac3888f102" name="Changes" comment="" />
+      <created>1663240884800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663240884800</updated>
+    </task>
+    <servers />
+  </component>
+</project>

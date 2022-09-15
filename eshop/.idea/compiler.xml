@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eshop.ui.content" />
+        <module name="eshop.all" />
+        <module name="eshop.ui.apps.structure" />
+        <module name="eshop.core" />
+        <module name="eshop.ui.apps" />
+        <module name="eshop.ui.tests" />
+        <module name="eshop.ui.config" />
+        <module name="eshop.it.tests" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

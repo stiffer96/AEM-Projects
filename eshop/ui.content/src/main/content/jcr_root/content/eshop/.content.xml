@@ -2,18 +2,19 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:allowedTemplates="[/conf/eshop/settings/wcm/templates/.*]"
-        cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        jcr:primaryType="nt:unstructured"
-        jcr:title="eshop"
+        cq:allowedTemplates="[/conf/eshop/settings/wcm/templates/(?!xf-).*]"
+        cq:conf="/conf/eshop"
+        cq:redirectTarget="/content/eshop/us/en"
+        cq:template="/conf/eshop/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="eShop"
+        sling:configRef="/conf/eshop"
         sling:redirect="{Boolean}true"
         sling:redirectStatus="{Long}302"
-        sling:resourceType="foundation/components/redirect"
-        redirectTarget="/content/eshop/en">
+        sling:resourceType="eshop/components/page">
         <image jcr:primaryType="nt:unstructured">
             <file/>
         </image>
     </jcr:content>
-    <en/>
-    <fr/>
+    <us/>
 </jcr:root>
