@@ -1,11 +1,11 @@
 Manifest-Version: 1.0
 Implementation-Title: eShop - Repository Structure Package
 Content-Package-Roots: /apps,/apps/cq,/apps/dam,/apps/eshop,/apps/msm,
- /apps/settings,/apps/sling,/apps/wcm,/content/dam/eshop
+ /apps/settings,/apps/sling,/apps/wcm
 Implementation-Version: 0.0.1-SNAPSHOT
 Build-Jdk-Spec: 1.8
-Content-Package-Type: mixed
-Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Content-Package-Type: application
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.4
 Content-Package-Id: com.aem.ecommerce:eshop.ui.apps.structure:0.0.1-SN
  APSHOT
 Content-Package-Description: Empty package that defines the structure 

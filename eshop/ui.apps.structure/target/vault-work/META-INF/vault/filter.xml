@@ -8,5 +8,4 @@
     <filter root="/apps/wcm"/>
     <filter root="/apps/msm"/>
     <filter root="/apps/settings"/>
-    <filter root="/content/dam/eshop"/>
 </workspaceFilter>

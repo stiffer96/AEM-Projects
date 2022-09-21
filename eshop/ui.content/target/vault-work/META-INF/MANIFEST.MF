@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: eShop - UI content
-Content-Package-Roots: /conf/eshop,/content/dam/eshop/asset.jpg,/conte
- nt/eshop,/content/experience-fragments/eshop
+Content-Package-Roots: /conf/eshop,/content/dam/eshop,/content/eshop,/
+ content/experience-fragments/eshop
 Implementation-Version: 0.0.1-SNAPSHOT
 Content-Package-Dependencies-Locations: com.aem.ecommerce:eshop.ui.app
  s:0.0.1-SNAPSHOT=maven:com.aem.ecommerce:eshop.ui.apps:0.0.1-SNAPSHOT
@@ -10,7 +10,7 @@ Content-Package-Dependencies: com.aem.ecommerce:eshop.ui.apps:0.0.1-SN
  APSHOT
 Build-Jdk-Spec: 1.8
 Content-Package-Type: content
-Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.4
 Content-Package-Id: com.aem.ecommerce:eshop.ui.content:0.0.1-SNAPSHOT
 Content-Package-Description: UI content package for eShop
 

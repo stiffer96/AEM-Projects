@@ -6,6 +6,6 @@
         cq:template="/conf/eshop/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
         jcr:title="us"
-        sling:resourceType="eshop/components/page"/>
+        sling:resourceType="foundation/components/redirect"/>
     <en/>
 </jcr:root>

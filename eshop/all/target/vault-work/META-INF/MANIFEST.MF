@@ -5,7 +5,7 @@ Content-Package-Roots: /apps/eshop-packages,/apps/eshop-vendor-package
 Implementation-Version: 0.0.1-SNAPSHOT
 Build-Jdk-Spec: 1.8
 Content-Package-Type: container
-Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.4
 Content-Package-Id: com.aem.ecommerce:eshop.all:0.0.1-SNAPSHOT
 Content-Package-Description: All content package for eShop
 

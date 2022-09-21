@@ -4,7 +4,7 @@
 <comment>eShop - UI config</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="name">eshop.ui.config</entry>
-<entry key="created">2022-09-15T11:46:24.846Z</entry>
+<entry key="created">2022-09-21T09:18:05.365Z</entry>
 <entry key="groupId">com.aem.ecommerce</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>
 <entry key="packageType">container</entry>

@@ -7,13 +7,13 @@ Bundle-SymbolicName: eshop.core
 Bundle-Version: 0.0.1.SNAPSHOT
 Export-Package: com.aem.ecommerce.eshop.core.core.filters;version="1.0
  ";uses:="javax.servlet",com.aem.ecommerce.eshop.core.core.listeners;v
- ersion="1.0";uses:="org.apache.sling.api.resource.observation",com.ae
- m.ecommerce.eshop.core.core.models;version="1.0";uses:="javax.annotat
- ion,org.apache.sling.api.resource,org.apache.sling.models.annotations
- ,org.apache.sling.models.annotations.injectorspecific",com.aem.ecomme
- rce.eshop.core.core.schedulers;version="1.0",com.aem.ecommerce.eshop.
- core.core.servlets;version="1.0";uses:="javax.servlet,org.apache.slin
- g.api,org.apache.sling.api.servlets"
+ ersion="1.0";uses:="org.osgi.service.event",com.aem.ecommerce.eshop.c
+ ore.core.models;version="1.0";uses:="javax.annotation,org.apache.slin
+ g.api.resource,org.apache.sling.models.annotations,org.apache.sling.m
+ odels.annotations.injectorspecific",com.aem.ecommerce.eshop.core.core
+ .schedulers;version="1.0",com.aem.ecommerce.eshop.core.core.servlets;
+ version="1.0";uses:="javax.servlet,org.apache.sling.api,org.apache.sl
+ ing.api.servlets"
 Import-Package: javax.annotation;version="0.0.0",com.aem.ecommerce.esh
  op.core.core.filters;version="[1.0,2)",com.aem.ecommerce.eshop.core.c
  ore.listeners;version="[1.0,2)",com.aem.ecommerce.eshop.core.core.sch
@@ -21,16 +21,17 @@ Import-Package: javax.annotation;version="0.0.0",com.aem.ecommerce.esh
  version="[1.0,2)",com.day.cq.wcm.api;version="[1.27,2)",javax.servlet
  ;version="[3.1,4)",org.apache.sling.api;version="[2.3,3)",org.apache.
  sling.api.request;version="[2.4,3)",org.apache.sling.api.resource;ver
- sion="[2.11,3)",org.apache.sling.api.resource.observation;version="[1
- .2,2)",org.apache.sling.api.servlets;version="[2.2,3)",org.apache.sli
- ng.models.annotations;version="[1.5,2)",org.apache.sling.models.annot
- ations.injectorspecific;version="[1.1,2)",org.slf4j;version="[1.7,2)"
+ sion="[2.10,3)",org.apache.sling.api.servlets;version="[2.2,3)",org.a
+ pache.sling.models.annotations;version="[1.5,2)",org.apache.sling.mod
+ els.annotations.injectorspecific;version="[1.1,2)",org.apache.sling.s
+ ettings;version="[1.3,2)",org.osgi.service.event;version="[1.3,2)",or
+ g.slf4j;version="[1.7,2)"
 Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
  unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
  ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
  ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
- tring>="org.apache.sling.api.resource.observation.ResourceChangeListe
- ner";uses:="org.apache.sling.api.resource.observation"
+ tring>="org.osgi.service.event.EventHandler";uses:="org.osgi.service.
+ event"
 Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
  nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
  e=JavaSE)(version=1.8))"

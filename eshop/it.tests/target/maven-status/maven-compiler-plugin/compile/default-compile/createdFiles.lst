@@ -1,4 +1,2 @@
-com\aem\ecommerce\eshop\core\it\tests\HtmlUnitClient.class
-com\aem\ecommerce\eshop\core\it\tests\CreatePageIT.class
 com\aem\ecommerce\eshop\core\it\tests\GetPageIT.class
-com\aem\ecommerce\eshop\core\it\tests\PublishPageValidationIT.class
+com\aem\ecommerce\eshop\core\it\tests\CreatePageIT.class
